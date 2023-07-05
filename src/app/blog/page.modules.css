@@ -1,0 +1,27 @@
+.blogContainer{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+
+
+}
+.blogLink{
+    display: flex;
+    flex-direction: row;
+}
+
+.blogImg{
+    flex: 1;
+}
+.blogText{
+    flex: 1;
+}
+
+.blogText h2{
+    
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.blogText p{
+    font-size: 16px;
+}

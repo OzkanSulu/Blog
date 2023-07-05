@@ -1,0 +1,36 @@
+.portfolioMainTitle {
+  margin: 20px 0;
+  color: #636363;
+}
+.portfolioItem {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 5px;
+  background-size: cover !important;
+  background: url("../../../public/investmen.jpg");
+  color: #bbb;
+}
+.borderItems {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+.portfolioTitle {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.portfolioButton {
+  padding: 0.5rem;
+  width: 10%;
+  color: #93a8ef;
+  font-size: large;
+  cursor: pointer;
+  border: 2px solid #93a8ef;
+  border-radius: 5px;
+  margin:20px 0 ;
+}
